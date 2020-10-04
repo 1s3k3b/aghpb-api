@@ -1,9 +1,10 @@
 {
   "name": "aghpb-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An API to interact with laynH/Anime-Girls-Holding-Programming-Books",
   "main": "./dist/src/index.js",
   "types": "./typings/src/index.d.ts",
+  "files": ["dist", "typings"],
   "scripts": {
     "test": "node node_modules/typescript/lib/tsc && node dist/test",
     "lint": "node node_modules/eslint/bin/eslint **/**.ts --fix"
