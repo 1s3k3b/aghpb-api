@@ -1,8 +1,8 @@
 name: Testing
 on: [push, pull_request]
 jobs:
-  lint:
-    name: ESLint
+  testing:
+    name: Testing
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
